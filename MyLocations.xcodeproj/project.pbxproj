@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		28AD4EAC27AF10F700FA2F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD4EAB27AF10F700FA2F03 /* AppDelegate.swift */; };
 		28AD4EAE27AF10F700FA2F03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD4EAD27AF10F700FA2F03 /* SceneDelegate.swift */; };
-		28AD4EB027AF10F700FA2F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD4EAF27AF10F700FA2F03 /* ViewController.swift */; };
+		28AD4EB027AF10F700FA2F03 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD4EAF27AF10F700FA2F03 /* CurrentLocationViewController.swift */; };
 		28AD4EB327AF10F700FA2F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AD4EB127AF10F700FA2F03 /* Main.storyboard */; };
 		28AD4EB627AF10F700FA2F03 /* MyLocations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28AD4EB427AF10F700FA2F03 /* MyLocations.xcdatamodeld */; };
 		28AD4EB827AF10FB00FA2F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AD4EB727AF10FB00FA2F03 /* Assets.xcassets */; };
 		28AD4EBB27AF10FB00FA2F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AD4EB927AF10FB00FA2F03 /* LaunchScreen.storyboard */; };
+		28B9769727B0927E00DD0098 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9769627B0927E00DD0098 /* LocationDetailsViewController.swift */; };
+		28B9769927B0AB8600DD0098 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9769827B0AB8600DD0098 /* CategoryPickerViewController.swift */; };
+		28B9769B27B0B8AB00DD0098 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9769A27B0B8AB00DD0098 /* HudView.swift */; };
+		28B9769D27B0C3D100DD0098 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9769C27B0C3D100DD0098 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28AD4EA827AF10F700FA2F03 /* MyLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AD4EAB27AF10F700FA2F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28AD4EAD27AF10F700FA2F03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		28AD4EAF27AF10F700FA2F03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28AD4EAF27AF10F700FA2F03 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
 		28AD4EB227AF10F700FA2F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28AD4EB527AF10F700FA2F03 /* MyLocations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyLocations.xcdatamodel; sourceTree = "<group>"; };
 		28AD4EB727AF10FB00FA2F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28AD4EBA27AF10FB00FA2F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28AD4EBC27AF10FB00FA2F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B9769627B0927E00DD0098 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
+		28B9769827B0AB8600DD0098 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
+		28B9769A27B0B8AB00DD0098 /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
+		28B9769C27B0C3D100DD0098 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,16 @@
 			children = (
 				28AD4EAB27AF10F700FA2F03 /* AppDelegate.swift */,
 				28AD4EAD27AF10F700FA2F03 /* SceneDelegate.swift */,
-				28AD4EAF27AF10F700FA2F03 /* ViewController.swift */,
+				28AD4EAF27AF10F700FA2F03 /* CurrentLocationViewController.swift */,
 				28AD4EB127AF10F700FA2F03 /* Main.storyboard */,
 				28AD4EB727AF10FB00FA2F03 /* Assets.xcassets */,
 				28AD4EB927AF10FB00FA2F03 /* LaunchScreen.storyboard */,
 				28AD4EBC27AF10FB00FA2F03 /* Info.plist */,
 				28AD4EB427AF10F700FA2F03 /* MyLocations.xcdatamodeld */,
+				28B9769627B0927E00DD0098 /* LocationDetailsViewController.swift */,
+				28B9769827B0AB8600DD0098 /* CategoryPickerViewController.swift */,
+				28B9769A27B0B8AB00DD0098 /* HudView.swift */,
+				28B9769C27B0C3D100DD0098 /* Functions.swift */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
@@ -141,10 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD4EB027AF10F700FA2F03 /* ViewController.swift in Sources */,
+				28B9769927B0AB8600DD0098 /* CategoryPickerViewController.swift in Sources */,
+				28AD4EB027AF10F700FA2F03 /* CurrentLocationViewController.swift in Sources */,
 				28AD4EAC27AF10F700FA2F03 /* AppDelegate.swift in Sources */,
+				28B9769D27B0C3D100DD0098 /* Functions.swift in Sources */,
 				28AD4EB627AF10F700FA2F03 /* MyLocations.xcdatamodeld in Sources */,
 				28AD4EAE27AF10F700FA2F03 /* SceneDelegate.swift in Sources */,
+				28B9769B27B0B8AB00DD0098 /* HudView.swift in Sources */,
+				28B9769727B0927E00DD0098 /* LocationDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,9 +311,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyLocations/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app lets you keep track of interesting places. It needs access to the GPS coordinates for your location.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "location-services";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,9 +341,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyLocations/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app lets you keep track of interesting places. It needs access to the GPS coordinates for your location.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "location-services";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

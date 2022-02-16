@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2848FE2A27B9D41600B80FDB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2848FE2927B9D41600B80FDB /* MapViewController.swift */; };
+		2848FE2C27BAC4BA00B80FDB /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2848FE2B27BAC4BA00B80FDB /* UIImage+Resize.swift */; };
+		2848FE2E27BAC6A500B80FDB /* String+AddText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2848FE2D27BAC6A500B80FDB /* String+AddText.swift */; };
+		2848FE3127BB459400B80FDB /* Sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2848FE3027BB459400B80FDB /* Sound.caf */; };
+		285B1D7927B9860F000BA276 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B1D7827B9860F000BA276 /* LocationsViewController.swift */; };
+		285B1D7B27B99AF5000BA276 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285B1D7A27B99AF5000BA276 /* LocationCell.swift */; };
 		28AD4EAC27AF10F700FA2F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD4EAB27AF10F700FA2F03 /* AppDelegate.swift */; };
 		28AD4EAE27AF10F700FA2F03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD4EAD27AF10F700FA2F03 /* SceneDelegate.swift */; };
 		28AD4EB027AF10F700FA2F03 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD4EAF27AF10F700FA2F03 /* CurrentLocationViewController.swift */; };
@@ -18,9 +24,17 @@
 		28B9769927B0AB8600DD0098 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9769827B0AB8600DD0098 /* CategoryPickerViewController.swift */; };
 		28B9769B27B0B8AB00DD0098 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9769A27B0B8AB00DD0098 /* HudView.swift */; };
 		28B9769D27B0C3D100DD0098 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9769C27B0C3D100DD0098 /* Functions.swift */; };
+		28FADE4727B82C4B00ACE3BE /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FADE4527B82C4B00ACE3BE /* Location+CoreDataClass.swift */; };
+		28FADE4827B82C4B00ACE3BE /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FADE4627B82C4B00ACE3BE /* Location+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2848FE2927B9D41600B80FDB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2848FE2B27BAC4BA00B80FDB /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		2848FE2D27BAC6A500B80FDB /* String+AddText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+AddText.swift"; sourceTree = "<group>"; };
+		2848FE3027BB459400B80FDB /* Sound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound.caf; sourceTree = "<group>"; };
+		285B1D7827B9860F000BA276 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationsViewController.swift; path = ../../../LocationsViewController.swift; sourceTree = "<group>"; };
+		285B1D7A27B99AF5000BA276 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		28AD4EA827AF10F700FA2F03 /* MyLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AD4EAB27AF10F700FA2F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28AD4EAD27AF10F700FA2F03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +48,8 @@
 		28B9769827B0AB8600DD0098 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
 		28B9769A27B0B8AB00DD0098 /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
 		28B9769C27B0C3D100DD0098 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		28FADE4527B82C4B00ACE3BE /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		28FADE4627B82C4B00ACE3BE /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +63,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2848FE2F27BB459400B80FDB /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				2848FE3027BB459400B80FDB /* Sound.caf */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		28AD4E9F27AF10F700FA2F03 = {
 			isa = PBXGroup;
 			children = (
+				28FADE4527B82C4B00ACE3BE /* Location+CoreDataClass.swift */,
+				28FADE4627B82C4B00ACE3BE /* Location+CoreDataProperties.swift */,
 				28AD4EAA27AF10F700FA2F03 /* MyLocations */,
 				28AD4EA927AF10F700FA2F03 /* Products */,
 			);
@@ -66,10 +92,13 @@
 		28AD4EAA27AF10F700FA2F03 /* MyLocations */ = {
 			isa = PBXGroup;
 			children = (
+				2848FE2F27BB459400B80FDB /* Sound */,
 				28AD4EAB27AF10F700FA2F03 /* AppDelegate.swift */,
 				28AD4EAD27AF10F700FA2F03 /* SceneDelegate.swift */,
+				285B1D7A27B99AF5000BA276 /* LocationCell.swift */,
 				28AD4EAF27AF10F700FA2F03 /* CurrentLocationViewController.swift */,
 				28AD4EB127AF10F700FA2F03 /* Main.storyboard */,
+				285B1D7827B9860F000BA276 /* LocationsViewController.swift */,
 				28AD4EB727AF10FB00FA2F03 /* Assets.xcassets */,
 				28AD4EB927AF10FB00FA2F03 /* LaunchScreen.storyboard */,
 				28AD4EBC27AF10FB00FA2F03 /* Info.plist */,
@@ -78,6 +107,9 @@
 				28B9769827B0AB8600DD0098 /* CategoryPickerViewController.swift */,
 				28B9769A27B0B8AB00DD0098 /* HudView.swift */,
 				28B9769C27B0C3D100DD0098 /* Functions.swift */,
+				2848FE2927B9D41600B80FDB /* MapViewController.swift */,
+				2848FE2B27BAC4BA00B80FDB /* UIImage+Resize.swift */,
+				2848FE2D27BAC6A500B80FDB /* String+AddText.swift */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
@@ -142,6 +174,7 @@
 			files = (
 				28AD4EBB27AF10FB00FA2F03 /* LaunchScreen.storyboard in Resources */,
 				28AD4EB827AF10FB00FA2F03 /* Assets.xcassets in Resources */,
+				2848FE3127BB459400B80FDB /* Sound.caf in Resources */,
 				28AD4EB327AF10F700FA2F03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,8 +190,15 @@
 				28AD4EB027AF10F700FA2F03 /* CurrentLocationViewController.swift in Sources */,
 				28AD4EAC27AF10F700FA2F03 /* AppDelegate.swift in Sources */,
 				28B9769D27B0C3D100DD0098 /* Functions.swift in Sources */,
+				285B1D7927B9860F000BA276 /* LocationsViewController.swift in Sources */,
+				28FADE4827B82C4B00ACE3BE /* Location+CoreDataProperties.swift in Sources */,
+				2848FE2A27B9D41600B80FDB /* MapViewController.swift in Sources */,
+				2848FE2C27BAC4BA00B80FDB /* UIImage+Resize.swift in Sources */,
+				285B1D7B27B99AF5000BA276 /* LocationCell.swift in Sources */,
 				28AD4EB627AF10F700FA2F03 /* MyLocations.xcdatamodeld in Sources */,
 				28AD4EAE27AF10F700FA2F03 /* SceneDelegate.swift in Sources */,
+				28FADE4727B82C4B00ACE3BE /* Location+CoreDataClass.swift in Sources */,
+				2848FE2E27BAC6A500B80FDB /* String+AddText.swift in Sources */,
 				28B9769B27B0B8AB00DD0098 /* HudView.swift in Sources */,
 				28B9769727B0927E00DD0098 /* LocationDetailsViewController.swift in Sources */,
 			);
@@ -311,7 +351,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyLocations/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Add photos to your locations.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app lets you keep track of interesting places. It needs access to the GPS coordinates for your location.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Add photos to your locations.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,6 +361,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,7 +384,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyLocations/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Add photos to your locations.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app lets you keep track of interesting places. It needs access to the GPS coordinates for your location.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Add photos to your locations.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -349,6 +394,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
